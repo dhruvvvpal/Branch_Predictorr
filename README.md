@@ -101,11 +101,9 @@ All 9 self-checks pass in behavioural simulation (`tb_bp_top.sv`). Steady-state 
 │   ├── btb.sv                 # 32-entry direct-mapped BTB
 │   ├── pipeline_core.sv       # 5-stage RV32I pipeline (stub core variant)
 │   └── zybo_top.sv            # Board wrapper (MMCM, I/O, ILA hooks)
-├── sim/
+├── tb/
 │   └── tb_bp_top.sv           # Unit testbench (9 self-checks)
-├── constraints/
-│   └── zybo_z7.xdc            # Pin assignments + timing constraint (50 MHz)
-├── reports/
+├── docs/
 │   ├── timing_summary.rpt     # Post-implementation timing report
 │   └── utilization.rpt        # Resource utilization report
 └── README.md
